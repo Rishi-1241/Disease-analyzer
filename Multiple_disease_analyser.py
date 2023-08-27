@@ -3,7 +3,7 @@
 """
 Created on Sun May 22 11:53:51 2022
 
-@author: siddhardhan
+@author: Prakhar
 """
 
 import pickle
@@ -13,11 +13,11 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(open("C:\\Users\\Prakhar Agrawal\\Desktop\\Disease_analyzer\\diabetes_model.sav", 'rb'))
+diabetes_model = pickle.load(open("diabetes_model.sav", 'rb'))
 
-heart_disease_model = pickle.load(open("C:\\Users\\Prakhar Agrawal\\Desktop\Disease_analyzer\\heart_disease_model.sav",'rb'))
+heart_disease_model = pickle.load(open("heart_disease_model.sav",'rb'))
 
-parkinsons_model = pickle.load(open("C:\\Users\\Prakhar Agrawal\\Desktop\\Disease_analyzer\\parkinsons_model.sav", 'rb'))
+parkinsons_model = pickle.load(open("parkinsons_model.sav", 'rb'))
 
 
 
